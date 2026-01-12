@@ -1,0 +1,23 @@
+# --- Core Libraries ---
+pandas
+numpy
+requests
+joblib
+
+# --- Machine Learning & Optimization ---
+lightgbm
+scikit-learn
+optuna
+
+# --- Technical Analysis ---
+TA-Lib
+
+# --- Data Visualization ---
+matplotlib
+seaborn
+
+# --- Performance Acceleration ---
+numba
+
+# --- Optional for Parquet file format ---
+pyarrow
