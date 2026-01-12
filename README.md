@@ -30,7 +30,35 @@ This project implements an end-to-end pipeline for creating a dual-model (Long/S
     python PhamCanh_Trading_System_Research.py
  
     The script will automatically download the necessary data from Binance if the local `.parquet` file is not found. It will then proceed with feature engineering, model training, validation, and backtesting, finally displaying the results and charts.
+📊 FEATURE IMPORTANCE - LONG MODEL (V3 - OPTIMIZED CV)
+         Feature  Importance (%)
+          rsi_4h            9.96
+          adx_1h            9.91
+          rsi_1h            8.94
+volatility_ratio            7.63
+   dist_ema50_1h            6.72
+         atr_pct            6.57
+             adx            5.92
+     dist_ema200            5.62
+            chop            5.57
+        bb_width            5.49
+   bbw_expansion            5.33
+             rsi            4.67
 
+📊 FEATURE IMPORTANCE - SHORT MODEL (V3 - OPTIMIZED CV)
+         Feature  Importance (%)
+          rsi_4h           11.63
+          adx_1h            9.27
+          rsi_1h            8.97
+         atr_pct            8.52
+volatility_ratio            7.29
+             adx            6.10
+   dist_ema50_1h            5.98
+        bb_width            5.70
+   bbw_expansion            5.30
+            chop            4.94
+     dist_ema200            4.69
+             rsi            4.60
 ##  
 ============================================================
  R RUNNING WALK-FORWARD VALIDATION TEST
